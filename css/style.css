@@ -62,8 +62,8 @@ header .left-top .active {
 }
 /* Start newsletter */
 #newsletter {
-     padding: 15px 120px;
-     background: ##f8f7fb;
+     padding: 15px 40px;
+     background: #f8f7fb;
      display: flex;
      flex-flow: row wrap;
      justify-content: center;
@@ -161,5 +161,8 @@ header .left-top .active {
      .middle p {
           font-size: 10px;
      }
-}
+     #newsletter input[type="email"]{
+          width: fit-content;
+     }
 
+}
