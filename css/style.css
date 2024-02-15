@@ -60,6 +60,41 @@ header .left-top .active {
      font-size: 20px;
      width: 50%;
 }
+/* Start newsletter */
+#newsletter {
+     padding: 15px 120px;
+     background: ##f8f7fb;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+}
+#newsletter h1 {
+     float: right;
+}
+#newsletter form {
+     float: left;
+     margin-top: 15px;
+     display: flex;
+     flex-flow: row wrap;
+     justify-content: center;
+     align-items: center;
+     align-content: center;
+}
+
+#newsletter input[type="email"]{
+     padding: 4px;
+     height: 30px;
+     width: 250px;
+}
+
+.button {
+     height: 30px;
+     background: #cccccc;
+     padding-inline: 20px;
+     color: #353637;
+}
 @media (width < 1191px) {
      .middle h1 {
           font-size: 50px;
@@ -83,6 +118,20 @@ header .left-top .active {
      .middle p {
           font-size: 20px;
           width: 100%;
+     }
+}
+@media (width < 818px) {
+     #newsletter form {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+     }
+     .button {
+          width: 100%;
+     }
+     #newsletter h1 {
+          text-align: center;
      }
 }
 @media (width < 490px) {
