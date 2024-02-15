@@ -1,4 +1,4 @@
-$(function(){
-     let currentDate = new Date();
-     $('#currentYear').text(currentDate.getFullYear());
-})
+
+
+let copyrightspan = document.getElementById("copyright");
+copyrightspan.innerHTML = new Date().getFullYear()
