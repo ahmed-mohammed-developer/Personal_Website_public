@@ -119,6 +119,13 @@ main h1 {
      width: fit-content;
      padding-top: 10px;
 }
+footer {
+     height: 100px;
+     padding-block: 50px;
+     background-color: #371e71;
+     color: white;
+     text-align: center;
+}
 @media (width < 1191px) {
      .middle h1 {
           font-size: 50px;
@@ -192,7 +199,6 @@ main h1 {
      #newsletter input[type="email"]{
           width: fit-content;
      }
-
 }
 @media (width < 300px) {
      .grid {
