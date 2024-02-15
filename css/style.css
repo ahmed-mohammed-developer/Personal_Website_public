@@ -8,7 +8,7 @@ body {
      font-family: 'El Messiri', sans-serif;
 }
 .top {
-     background-color: #371e71;;
+     background-color: #371e71;
 }
 .container {
      max-width: 1200px;
@@ -95,6 +95,30 @@ header .left-top .active {
      padding-inline: 20px;
      color: #353637;
 }
+main {
+     padding-block: 50px;
+
+}
+main h1 {
+     text-align: center;
+     padding-bottom: 20px;
+}
+.grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+     gap: 10px;
+}
+.grid .box {
+     padding: 20px;
+     text-align: center;
+}
+.grid .box i {
+     padding-bottom: 20px;
+}
+.grid .box p {
+     width: fit-content;
+     padding-top: 10px;
+}
 @media (width < 1191px) {
      .middle h1 {
           font-size: 50px;
@@ -146,6 +170,10 @@ header .left-top .active {
           font-size: 15px;
         
      }
+     .grid {
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: 10px;
+     }
 }
 @media (width < 377px) {
      .none {
@@ -165,4 +193,9 @@ header .left-top .active {
           width: fit-content;
      }
 
+}
+@media (width < 300px) {
+     .grid {
+          grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+     }
 }
