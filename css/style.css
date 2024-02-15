@@ -9,6 +9,7 @@ body {
 }
 .top {
      background-color: #371e71;
+     padding-bottom: 50px;
 }
 .container {
      max-width: 1200px;
@@ -260,13 +261,13 @@ page glery
 }
 
 #navLinks ul li:hover {
-     border-color: #371e71;
+     border-color: #353637;
 }
 
 #navLinks ul li.active {
-     border-color: #371e71;
+     border-color: #353637;
 }
 
 #navLinks ul li.active:hover {
-     border-color: #371e71;
+     border-color: #fbb03b;
 }
